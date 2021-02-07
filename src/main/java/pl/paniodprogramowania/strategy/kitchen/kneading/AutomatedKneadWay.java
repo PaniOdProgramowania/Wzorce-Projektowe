@@ -1,8 +1,8 @@
-package pl.paniodprogramowania.kitchen.kneading;
+package pl.paniodprogramowania.strategy.kitchen.kneading;
 
 import java.util.concurrent.TimeUnit;
-import pl.paniodprogramowania.kitchen.Dough;
-import pl.paniodprogramowania.kitchen.NoDoughException;
+import pl.paniodprogramowania.strategy.kitchen.Dough;
+import pl.paniodprogramowania.strategy.kitchen.NoDoughException;
 
 public class AutomatedKneadWay implements DoughKneadWay {
 

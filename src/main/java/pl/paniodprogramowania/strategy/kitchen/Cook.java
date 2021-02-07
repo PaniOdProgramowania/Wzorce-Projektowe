@@ -1,6 +1,6 @@
-package pl.paniodprogramowania.kitchen;
+package pl.paniodprogramowania.strategy.kitchen;
 
-import pl.paniodprogramowania.kitchen.kneading.DoughKneadWay;
+import pl.paniodprogramowania.strategy.kitchen.kneading.DoughKneadWay;
 
 public class Cook {
   private final DoughKneadWay doughKneadWay;

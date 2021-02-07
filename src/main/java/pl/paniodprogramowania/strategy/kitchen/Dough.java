@@ -1,4 +1,4 @@
-package pl.paniodprogramowania.kitchen;
+package pl.paniodprogramowania.strategy.kitchen;
 
 public class Dough {
   private boolean isKneaded = false;

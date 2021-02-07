@@ -1,8 +1,8 @@
-package pl.paniodprogramowania;
+package pl.paniodprogramowania.strategy;
 
-import pl.paniodprogramowania.kitchen.Cook;
-import pl.paniodprogramowania.kitchen.kneading.AutomatedKneadWay;
-import pl.paniodprogramowania.kitchen.kneading.ManualKneadWay;
+import pl.paniodprogramowania.strategy.kitchen.Cook;
+import pl.paniodprogramowania.strategy.kitchen.kneading.AutomatedKneadWay;
+import pl.paniodprogramowania.strategy.kitchen.kneading.ManualKneadWay;
 
 public class Runner {
   public static void main(String[] args) {
