@@ -53,4 +53,4 @@ Inną opcją byłoby wywoływanie setterów dla pól... i poniekąd czymś podob
   
   ## Jak wygląda Budowniczy tutaj?
   Całość jest do zobaczenia tutaj:
-  ![Alt text](pictures/Builder.jpg?raw=true "Gdzie Budowniczy?")
+  ![Alt text](pictures/Builder.png?raw=true "Gdzie Budowniczy?")
