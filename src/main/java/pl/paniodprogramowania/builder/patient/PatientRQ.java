@@ -12,7 +12,7 @@ public class PatientRQ {
   private LocalDate admissionDate;
   private Set<String> coexistingIllnesses;
 
-  public PatientRQ(PatientRqBuilder patientRqBuilder) {
+  private PatientRQ(PatientRqBuilder patientRqBuilder) {
     this.firstName = patientRqBuilder.firstName;
     this.lastName = patientRqBuilder.lastName;
     this.birthDate = patientRqBuilder.birthDate;
