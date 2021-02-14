@@ -2,11 +2,12 @@ package pl.paniodprogramowania.builder.patient;
 
 import java.time.LocalDate;
 import java.util.HashSet;
+import java.util.Set;
 
 public class Runner {
 
   public static void main(String[] args) {
-    HashSet<String> coexistingIllnesses = new HashSet<>();
+    Set<String> coexistingIllnesses = new HashSet<>();
     coexistingIllnesses.add("Diabetes");
 
     PatientRQ patientRQ = new PatientRQ.PatientRqBuilder()

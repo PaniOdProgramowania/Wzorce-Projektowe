@@ -44,9 +44,6 @@ public class PatientRQ {
     private LocalDate admissionDate;
     private Set<String> coexistingIllnesses;
 
-    public PatientRqBuilder() {
-    }
-
     public PatientRqBuilder firstName(String firstName) {
       this.firstName = firstName;
       return this;
@@ -86,5 +83,6 @@ public class PatientRQ {
       return new PatientRQ(this);
     }
   }
-
 }
+
+
