@@ -18,7 +18,7 @@ public class WeatherModel {
     notifyObservers();
   }
 
-  public void notifyObservers() {
+  private void notifyObservers() {
     for (WeatherView observer : this.observers) {
       observer.showWeather();
     }
