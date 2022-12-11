@@ -6,7 +6,6 @@ import pl.paniodprogramowania.decorator.christmastree.complex.ColouredTree;
 
 public class Runner {
     public static void main(String[] args) {
-        int numberOfXmasBalls = 5;
         int numberOfLights = 2;
         ChristmasTree christmasTree =
                 new ChristmasTreeWithLights(
