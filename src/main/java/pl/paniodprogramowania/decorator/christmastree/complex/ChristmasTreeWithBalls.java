@@ -1,6 +1,6 @@
-package pl.paniodprogramowania.decorator;
+package pl.paniodprogramowania.decorator.christmastree.complex;
 
-public class ChristmasTreeWithBalls extends ChristmasTree{
+public class ChristmasTreeWithBalls extends ChristmasTreePlant{
   private int numberOfXmasBalls;
 
   public ChristmasTreeWithBalls(ChristmasPlant christmasPlant, int numberOfXmasBalls) {
@@ -13,7 +13,8 @@ public class ChristmasTreeWithBalls extends ChristmasTree{
     for (int i = 0; i < numberOfXmasBalls; i++){
       System.out.println("Ball nr " + i + " on the xmas tree!");
     }
-    this.christmasPlant.look();
+    System.out.println("This tree is " + (living()? "living!" : "not living"));
+    super.christmasPlant.look();
   }
 
   @Override

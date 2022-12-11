@@ -1,4 +1,4 @@
-package pl.paniodprogramowania.decorator;
+package pl.paniodprogramowania.decorator.christmastree.complex;
 
 public abstract class ChristmasPlant {
 
