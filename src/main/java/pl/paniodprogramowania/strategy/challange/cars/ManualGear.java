@@ -1,8 +1,11 @@
 package pl.paniodprogramowania.strategy.challange.cars;
 
-public final class ManualGear implements Gearbox{
+import lombok.EqualsAndHashCode;
+
+@EqualsAndHashCode
+public final class ManualGear implements Gearbox {
   @Override
-  public void run() {
+  public void changeGear() {
     System.out.println("Manual Gear");
   }
 }

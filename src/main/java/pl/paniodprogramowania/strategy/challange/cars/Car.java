@@ -9,6 +9,6 @@ public class Car {
 
   public void runTheCar(){
     System.out.println("I am a car and my gear is...");
-    gearbox.run();
+    gearbox.changeGear();
   }
 }

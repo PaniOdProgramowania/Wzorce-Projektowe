@@ -12,7 +12,6 @@ public class Fluid extends Face {
 
   @Override
   public String printFace() {
-    face.printFace();
-    return face.printFace() + " plus added " + fluidBrand + " fluid!";
+    return super.printFace() + "** plus added " + fluidBrand + " fluid! **";
   }
 }

@@ -7,19 +7,14 @@ import java.util.Set;
 public class Runner {
 
   public static void main(String[] args) {
-    Set<String> coexistingIllnesses = new HashSet<>();
-    coexistingIllnesses.add("Diabetes");
-
-    PatientRQ patientRQ = new PatientRQ.PatientRqBuilder()
+    var patientRQ = new PatientRQ.PatientRqBuilder()
         .firstName("Dominik")
         .lastName("Kowalski")
         .admissionDate(LocalDate.of(2021, 02, 07))
         .birthDate(LocalDate.of(1990, 07, 18))
-        .coexistingIllnesses(coexistingIllnesses)
+        .coexistingIllnesses(Set.of("Allergies"))
         .peopleMetBeforeAdmission(3)
         .placeOfBirth("Racibórz")
         .build();
-
-    System.out.println(patientRQ);
   }
 }

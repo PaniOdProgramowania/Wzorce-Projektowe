@@ -4,7 +4,7 @@ public class Powder extends Face {
   private Face face;
   private String powderShade;
 
-  public Powder(Face face, String powderShade) {
+  public Powder(String powderShade, Face face) {
     super();
     this.face = face;
     this.powderShade = powderShade;
@@ -12,6 +12,6 @@ public class Powder extends Face {
 
   @Override
   public String printFace() {
-    return face.printFace() + " plus added powder with shade " + powderShade;
+    return face.printFace() + "** plus added powder with shade " + powderShade + "**";
   }
 }

@@ -1,4 +1,4 @@
-package pl.paniodprogramowania.strategy;
+package pl.paniodprogramowania.strategy.kitchen;
 
 import pl.paniodprogramowania.strategy.kitchen.Cook;
 import pl.paniodprogramowania.strategy.kitchen.kneading.AutomatedKneadWay;
