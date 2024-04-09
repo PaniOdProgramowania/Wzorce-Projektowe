@@ -1,25 +1,13 @@
 package pl.paniodprogramowania.strategy.telephones;
 
 public class Person {
-  private boolean hasClassicPhone;
-  private boolean hasVideoChatPhone;
-  private boolean hasOnlinePhone;
+ private Telephone telephone;
 
-  public boolean hasClassicPhone() {
-    return hasClassicPhone;
+  public Person(Telephone telephone) {
+    this.telephone = telephone;
   }
 
-  public boolean hasVideoChatPhone() {
-    return hasVideoChatPhone;
-  }
-
-  public boolean hasOnlinePhone() {
-    return hasOnlinePhone;
-  }
-
-  public Person(boolean hasClassicPhone, boolean hasVideoChatPhone, boolean hasOnlinePhone) {
-    this.hasClassicPhone = hasClassicPhone;
-    this.hasVideoChatPhone = hasVideoChatPhone;
-    this.hasOnlinePhone = hasOnlinePhone;
+  public void callSomeone(){
+    System.out.println(telephone.makePhoneCall());
   }
 }
