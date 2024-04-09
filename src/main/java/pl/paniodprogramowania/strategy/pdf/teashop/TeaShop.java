@@ -1,4 +1,4 @@
-package pl.paniodprogramowania.strategy.students;
+package pl.paniodprogramowania.strategy.pdf.teashop;
 
 public class TeaShop {
   public String makeBlackTea(){
