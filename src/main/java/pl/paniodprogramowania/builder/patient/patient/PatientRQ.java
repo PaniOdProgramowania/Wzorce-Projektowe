@@ -1,4 +1,4 @@
-package pl.paniodprogramowania.builder.patient;
+package pl.paniodprogramowania.builder.patient.patient;
 
 import java.time.LocalDate;
 import java.util.Set;

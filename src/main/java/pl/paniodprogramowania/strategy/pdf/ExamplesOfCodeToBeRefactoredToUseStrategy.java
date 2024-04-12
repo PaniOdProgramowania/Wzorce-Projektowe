@@ -7,7 +7,7 @@ import pl.paniodprogramowania.strategy.challange.cars.ManualGear;
 import java.util.Map;
 import java.util.function.Function;
 
-public class Runner {
+public class ExamplesOfCodeToBeRefactoredToUseStrategy {
   public static void main(String[] args) {
     strategyAsFunction();
   }

@@ -24,5 +24,5 @@ parametr przekaże siebie (this).
 
 ## Jak wygląda Budowniczy tutaj?
 Całość jest do zobaczenia tutaj:
-![Alt text](../../../../../../../pictures/Builder.png?raw=true "Gdzie Budowniczy?")
+![Alt text](../../../../../../../../pictures/Builder.png?raw=true "Gdzie Budowniczy?")
   
