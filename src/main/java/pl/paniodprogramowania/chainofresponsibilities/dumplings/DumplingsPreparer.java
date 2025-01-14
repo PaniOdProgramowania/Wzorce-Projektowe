@@ -1,4 +1,4 @@
-package pl.paniodprogramowania.chainofresponsibilities;
+package pl.paniodprogramowania.chainofresponsibilities.dumplings;
 
 public abstract class DumplingsPreparer {
   private DumplingsPreparer nextStep;

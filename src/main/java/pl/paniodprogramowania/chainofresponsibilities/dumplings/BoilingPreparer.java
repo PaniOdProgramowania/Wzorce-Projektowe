@@ -1,4 +1,4 @@
-package pl.paniodprogramowania.chainofresponsibilities;
+package pl.paniodprogramowania.chainofresponsibilities.dumplings;
 
 public class BoilingPreparer extends DumplingsPreparer {
   public BoilingPreparer(DumplingsPreparer nextStep) {
