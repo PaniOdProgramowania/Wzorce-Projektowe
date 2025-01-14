@@ -5,16 +5,29 @@ plugins {
 group 'pl.paniodprogramowania'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = '17'
-targetCompatibility = '17'
+java.sourceCompatibility = 21
+java.targetCompatibility = 21
 
 repositories {
     mavenCentral()
 }
 
-dependencies {
-    compileOnly 'org.projectlombok:lombok:1.18.30'
+ext {
+    lombokVersion = '1.18.32'
+}
 
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor "org.projectlombok:lombok:${lombokVersion}"
+
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api'
+    testAnnotationProcessor "org.projectlombok:lombok:${lombokVersion}"
     testImplementation 'org.awaitility:awaitility:4.2.0'
 }
